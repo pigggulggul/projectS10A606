@@ -1,9 +1,9 @@
 export default function StudioListPage() {
     return (
-        <section className=" w-full h-screen flex flex-col mt-16 ml-8">
+        <section className="relative section-top pt-10 mt-16 ml-8">
             <ul className="w-full flex flex-col">
                 <li className="text-2xl">
-                    <p>내가 생성한 스튜디오</p>
+                    <p className="font-bold">내가 생성한 스튜디오</p>
                     <div className="flex my-4">
                         <a
                             href="/create"
@@ -48,7 +48,7 @@ export default function StudioListPage() {
                     </div>
                 </li>
                 <li className="text-2xl">
-                    <p>참여중인 스튜디오</p>
+                    <p className="font-bold">참여중인 스튜디오</p>
                     <div className="flex my-4">
                         <div className="relative flex flex-col justify-around items-center">
                             <p className="absolute px-3 top-4 right-4 bg-green-500 text-center text-lg border rounded-xl text-white">
@@ -85,7 +85,7 @@ export default function StudioListPage() {
                     </div>
                 </li>
                 <li className="text-2xl">
-                    <p>완성된 비디오</p>
+                    <p className="font-bold">완성된 비디오</p>
                     <div className="flex my-4">
                         <div className="relative flex flex-col justify-around items-center">
                             <img
